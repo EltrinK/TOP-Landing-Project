@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+header {
+    height: 500px;
+    background-color: #1f2937;
+}
+
+header .header-nav {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-content {
+    flex: 1;
+    margin-top: 80px;
+    height: 300px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.text-content {
+    margin: 0 20px;
+}
+
+.text-content h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.text-content p {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#sign-up {
+    background-color: lightblue;
+    padding: 8px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 0;
+    font-weight: 600;
+}
+
+.image-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    background-color: gray;
+}
+
+.information {
+    height: 500px;
+    background-color: #FFF;
+}
+
+.information h1 {
+    margin:  40px 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-item {
+    width: 200px;
+}
+
+.box-item .box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.box-item p {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.quote {
+    background-color: gray;
+}
+
+.quote .container {
+    padding: 100px;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#author {
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.banner {
+    background-color: #fff;
+}
+
+.signup-banner h1{
+    color: white;
+}
+
+
+.banner .container {
+    padding: 100px 0;
+}
+
+.signup-banner {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px 80px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.banner-text {
+    width: 80%;
+    color: #fff;
+}
+
+.banner-text p{
+    font-size: 1.1rem;
+}
+
+.banner-btn .signup-btn {
+    padding: 8px 20px;
+    color: white;
+    border: 1px solid #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+footer {
+    text-align: center;
+    color: #Fff;
+    padding: 30px 0;
+    background-color: #1f2937;
+}
+
+.copy {
+    font-size: 15px;
+}
